@@ -77,34 +77,31 @@ A **To-Do List Application** is a task management tool that helps users organize
 
 ### 🔄 **How It Works (Flow)**
 
-1. **User Registration/Login**
 
-   * Authenticates user and starts a session.
-
-2. **Dashboard View**
+1. **Dashboard View**
 
    * Displays all tasks with status (completed/pending).
 
-3. **Add Task**
+2. **Add Task**
 
    * User enters title, description, due date, and priority.
    * Task is saved in the database (linked to user account).
 
-4. **Edit/Delete Tasks**
+3. **Edit/Delete Tasks**
 
    * User can modify or remove tasks.
    * Changes are reflected in real-time or on refresh.
 
-5. **Mark as Completed**
+4. **Mark as Completed**
 
    * Task status toggles between done/undone.
 
-6. **Sync/Notifications**
+5. **Sync/Notifications**
 
    * Background services send reminders.
    * Tasks auto-sync if stored on cloud database.
 
-7. **Search & Filter**
+6. **Search & Filter**
 
    * Filters allow users to find tasks by date, category, or status.
 
